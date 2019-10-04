@@ -1,0 +1,102 @@
+<meta charset="utf-8"/>
+		<meta lang="es">
+		<meta name="description" content="Resumen del contenido"> 
+		<meta name="description" content="Free Web tutorials">
+  		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  		<meta name="author" content="Juan Carlos">
+  		<base href=”???????????”> 
+		<title>ejercicios con variables</title>
+		<!-- ESTO ES UN COMENTARIO EN HTML -->
+		<!--................LINKS............................->
+		<!-- link para poner un Icono de la aplicación -->
+		<link rel="shortcut icon" href="img/DWA.ico" type="image/x-icon">
+		<link rel="icon" href="img/DWA.ico" type="image/x-icon">
+		<!--.................................................->
+		<!-- codigo de CSS-->
+		<style type="text/css">
+			
+		</style>
+		<!-- código de javascript-->
+		<script type="text/javascript">
+			var texto = "HOLA MUNDO";
+			var i=5;
+			var j=8;
+			var texto1 = "texto1 ";
+			var texto2 = "texto2 ";
+			var cierto = true;
+			var falso = false;
+				window.alert("Hola mundo!");
+				document.write("Hello World!");
+				document.write("<h1>HOLA mundo </h1>");
+				console.log ("ejecución en console");
+				document.write(texto);
+				document.write("<br>");
+				document.write ("la suma de "+ i + " mas "+ j +" es igual a " +(i+j));
+				document.write("<br>");
+				document.write (texto1 + texto2);
+				document.write("<br>");
+				document.write (`la suma de ${i} + ${j} es ${(i+j)}`); //hay que abrir y cerrar con acento
+				document.write("<br>");
+				document.write(cierto);
+				document.write("<br>");
+				document.write(falso);
+
+			var variableA = 5;
+			var variableB = variableA;
+			var variableC = 0;
+				document.write("<br>");
+				document.write (variableB);
+				variableC = variableA;
+				document.write("<br>");
+				document.write (variableC);
+				document.write("<br>");
+			const PI = 3.141516;	
+				document.write ('esto es ' + PI)
+
+				var opA = 1;
+				var opB = 0; // tambien puede ser opA++
+				opB = opA++; // idem anterior primero asigna y despues suma
+				document.write("<br>");
+				document.write(opA)
+				document.write("<br>");
+				document.write(opB)
+				document.write("<br>");
+
+				var opC = 1;
+				var opD = 0;//tambien puede ser ++opC
+				opD = ++opC;//idem anterior primero se suma y despues se asigna
+				document.write("<br>");
+				document.write(opC)
+				document.write("<br>");
+				document.write(opD)
+				document.write("<br>");
+
+				num1 = 1;
+				num2 = 0;
+				document.write("<br>");
+				document.write (num1 > num2);	
+				document.write("<br>");
+				document.write (num1 < num2);	
+				document.write("<br>");
+				document.write (num1 == num2);
+				document.write("<br>");
+				document.write (num1 != num2);
+
+				numx = 1;
+				textz = '0';
+				document.write("<br>");
+				document.write (numx === textz);//compara contenido y tipo
+
+		</script> 
+	</head>
+	<body>
+		<header></header>
+		<nav></nav>
+		<section>
+
+			<article></article>
+		</section>
+		<aside></aside>
+		<footer></footer>
+	</body>	
+</html>
